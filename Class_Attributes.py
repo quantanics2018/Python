@@ -1,11 +1,14 @@
-class Circle:
-    pi = 3.14159  # Class attribute
+class Car:
+    # Class attribute
+    wheels = 4
 
 # Accessing class attribute using the class name
-print(Circle.pi)  # Output: 3.14159
+print(Car.wheels)  # Output: 4
 
-# Creating an object of the class
-circle1 = Circle()
+# Creating instances of the class
+car1 = Car()
+car2 = Car()
 
-# Accessing class attribute using the object
-print(circle1.pi)  # Output: 3.14159
+# Accessing class attribute using instances
+print(car1.wheels)  # Output: 4
+print(car2.wheels)  # Output: 4
